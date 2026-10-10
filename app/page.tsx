@@ -761,11 +761,14 @@ export default function Page() {
             💖
           </span>{" "}
           por{" "}
-          <span
-            className="transition-[color,text-shadow] duration-300 hover:[text-shadow:0_0_12px_rgb(255_255_255_/_0.9)] motion-reduce:transition-none"
+          <a
+            href="https://sintagmasoftware.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-[color,text-shadow] duration-300 hover:[text-shadow:0_0_12px_rgb(255_255_255_/_0.9)] focus-visible:[text-shadow:0_0_12px_rgb(255_255_255_/_0.9)] motion-reduce:transition-none"
           >
             Sintagma Software
-          </span>
+          </a>
           . Todos os direitos reservados.
         </div>
       </footer>
