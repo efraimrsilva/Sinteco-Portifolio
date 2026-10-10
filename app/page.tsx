@@ -761,14 +761,11 @@ export default function Page() {
             💖
           </span>{" "}
           por{" "}
-          <a
-            href="https://www.linkedin.com/in/efraimrsilva/"
-            target="_blank"
-            rel="noreferrer"
-            className="text-white underline decoration-white/70 underline-offset-2 transition-[color,text-shadow] duration-300 hover:text-white hover:[text-shadow:0_0_12px_rgb(255_255_255_/_0.9)]"
+          <span
+            className="transition-[color,text-shadow] duration-300 hover:[text-shadow:0_0_12px_rgb(255_255_255_/_0.9)] motion-reduce:transition-none"
           >
-            Efraim R. Silva
-          </a>
+            Sintagma Software
+          </span>
           . Todos os direitos reservados.
         </div>
       </footer>
