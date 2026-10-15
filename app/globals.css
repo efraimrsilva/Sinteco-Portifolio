@@ -34,25 +34,25 @@
 
 :root {
   color-scheme: light;
-  --background: #fffaf0;
-  --foreground: #172638;
+  --background: #faf8f4;
+  --foreground: #182431;
   --card: #ffffff;
   --card-foreground: #172638;
   --popover: #ffffff;
   --popover-foreground: #172638;
-  --primary: #073761;
+  --primary: #102f4b;
   --primary-foreground: #ffffff;
-  --secondary: #f6e2bd;
+  --secondary: #eee7da;
   --secondary-foreground: #172638;
-  --muted: #f6e2bd;
-  --muted-foreground: #435569;
-  --accent: #e79520;
-  --accent-foreground: #073761;
-  --brand: #e79520;
-  --sage: #27733f;
-  --border: #d6b982;
-  --input: #d6b982;
-  --ring: #ac5700;
+  --muted: #eee7da;
+  --muted-foreground: #465567;
+  --accent: #ce954f;
+  --accent-foreground: #102f4b;
+  --brand: #ce954f;
+  --sage: #34654a;
+  --border: #d4c7b2;
+  --input: #d4c7b2;
+  --ring: #97612d;
 }
 
 
@@ -60,7 +60,7 @@
 html { font-size: 17px; scroll-behavior: smooth; background: var(--background); }
 body { @apply bg-background text-foreground font-sans; }
 
-.eyebrow { @apply text-xs font-bold uppercase tracking-[0.2em]; color: #985000; }
+.eyebrow { @apply text-xs font-bold uppercase tracking-[0.2em]; color: #875321; }
 .bg-primary .eyebrow { color: var(--brand); }
 .section-title { @apply font-serif text-4xl leading-[1.08] tracking-tight text-primary sm:text-5xl; }
 .section-title span { @apply text-brand; }

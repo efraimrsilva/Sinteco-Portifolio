@@ -40,7 +40,7 @@ for (const videoId of ['DNtrF4q8Vhw', '-_sOfNAwLwA', '4tfvPW9etME']) {
 }
 assert.match(pageSource, /youtube-nocookie\.com\/embed\/\$\{item\.videoId\}/, 'the gallery must use privacy-enhanced YouTube embeds')
 assert.match(pageSource, /autoplay=1&mute=1&loop=1&playlist=\$\{item\.videoId\}&controls=0/, 'the gallery videos must autoplay silently in a loop without controls')
-assert.match(pageSource, /rgba\(7,55,97,\.154\)_100%/, 'the right edge of the hero overlay must preserve its lighter opacity with the vibrant blue palette')
+assert.match(pageSource, /rgba\(16,47,75,\.154\)_100%/, 'the right edge of the hero overlay must preserve its lighter opacity with the refined blue palette')
 assert.match(layoutSource, /import logo from ['"]@\/assets\/image\/logo\.png['"]/, 'the layout must use the supplied logo asset')
 assert.match(layoutSource, /icons:\s*\{\s*icon:\s*logo\.src\s*\}/, 'the supplied logo must be registered as the page icon')
 

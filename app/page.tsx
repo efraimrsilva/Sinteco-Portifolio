@@ -283,7 +283,7 @@ export default function Page() {
           sizes="100vw"
           className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(7,55,97,.98)_0%,rgba(7,55,97,.78)_42%,rgba(7,55,97,.154)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(16,47,75,.98)_0%,rgba(16,47,75,.78)_42%,rgba(16,47,75,.154)_100%)]" />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-16 lg:px-8 lg:pb-0">
           <div className="max-w-2xl animate-in fade-in slide-in-from-bottom-4 duration-700">
             <div className="mb-6 flex items-center gap-3 text-sm font-medium text-brand">
